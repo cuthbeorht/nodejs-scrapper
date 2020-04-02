@@ -23,11 +23,16 @@
   },
   "homepage": "https://github.com/cuthbeorht/nodejs-scrapper#readme",
   "dependencies": {
+    "@types/cheerio": "^0.22.17",
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
+    "mongodb": "^3.5.5",
     "node-html-parser": "^1.2.13",
     "puppeteer": "^2.1.1",
     "request": "^2.88.2",
     "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.5.4"
   }
 }
